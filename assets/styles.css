@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#img{
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}
+
+.container #img{
+    display: block;
+    margin: auto;
+    padding: auto;
+    
+
+}
+
+body{
+    background-color: #726f6f;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+    width: 75%;
+    height: 75%;
+}
+
+section{
+    border-radius: 1.5px;
+    /* display: grid; */
+    border: 3px solid #000;
+    background-color: rgb(92, 92, 89);
+    
+}
+
+.text {
+    line-height: 2.5;
+    text-align: center;
+    
+}
+
+.text p{
+    text-align: left;
+}
+
+
+
+
